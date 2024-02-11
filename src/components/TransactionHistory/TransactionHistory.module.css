@@ -1,0 +1,26 @@
+.table {
+  width: 500px;
+}
+
+.thead {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.tr {
+  font-size: 15px;
+}
+
+.number {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.string:nth-child(even) {
+  background-color: #d3d3d3;
+}
