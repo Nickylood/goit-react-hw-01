@@ -1,5 +1,6 @@
 .list {
   display: flex;
-  gap: 5px;
+  text-align: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
