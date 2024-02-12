@@ -7,7 +7,7 @@ export const FriendListItem = ({ friend: { id, avatar, name, isOnline } }) => {
       <img className={css.avatar} src={avatar} alt="avatar" width="48" />
       <p className={css.name}>{name}</p>
       <p className={clsx(css.change, isOnline ? css.isOnline : css.isOffline)}>
-        {isOnline}
+        {isOnline ? "Online" : "Offline"}
       </p>
     </div>
   );
